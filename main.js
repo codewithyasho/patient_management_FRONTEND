@@ -1,5 +1,5 @@
 // ========== API Configuration ==========
-const API_BASE_URL = 'https://health-chatbot-api-m8iz.onrender.com';
+const API_BASE_URL = 'https://patient-management-app-rqjp.onrender.com/';
 
 // ========== State Management ==========
 let allPatients = {};
@@ -608,7 +608,7 @@ function addMessage(text, sender) {
 // API CALL FUNCTION
 async function callAPI(userMessage) {
   try {
-    const response = await fetch("https://health-chatbot-api-ntgb.onrender.com/chat", {
+    const response = await fetch("https://health-chatbot-api-m8iz.onrender.com/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

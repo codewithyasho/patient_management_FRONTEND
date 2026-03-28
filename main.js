@@ -1,5 +1,5 @@
 // ========== API Configuration ==========
-const API_BASE_URL = 'https://patient-management-app-rqjp.onrender.com/';
+const API_BASE_URL = 'https://patient-management-app-rqjp.onrender.com';
 
 // ========== State Management ==========
 let allPatients = {};

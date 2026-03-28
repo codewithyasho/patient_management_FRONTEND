@@ -1,5 +1,5 @@
 // ========== API Configuration ==========
-const API_BASE_URL = 'https://health-chatbot-api-m8iz.onrender.com/';
+const API_BASE_URL = 'https://health-chatbot-api-m8iz.onrender.com';
 
 // ========== State Management ==========
 let allPatients = {};
